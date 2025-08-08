@@ -1,1 +1,1 @@
-# pokemon
+Web de refuerzo donde simplementa lo basico de HTML, CSS y JavaScrit.
