@@ -1,4 +1,4 @@
-Web de refuerzo donde se implementa lo basico de HTML, CSS y JavaScrit para lograr una pokedex interactiva basica.
+Web de repaso donde se implementa lo basico de HTML, CSS y JavaScrit para lograr una pokedex interactiva basica.
 
 Para el frontend se intento asemejar al diseño de la pokedex del anime Pokemon, se busco que fuera intuitivo e interactivo.
 
