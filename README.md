@@ -1,1 +1,1 @@
-Web de refuerzo donde simplementa lo basico de HTML, CSS y JavaScrit.
+Web de refuerzo donde se implementa lo basico de HTML, CSS y JavaScrit para lograr una pokedex interactiva basica.
