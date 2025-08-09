@@ -1,58 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gouging Fire</title>
-    <style>
-        body{
-            background-color: rgb(252, 169, 101);
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-        .navbar{
-            background-color: #fff128;
-            height: 30px;
-        }
-        h1{
-            color: #411400;
-        }
-        h1.chun{
-            color: #144705;
-        }
-        a{
-            color: rgb(255, 145, 0);
-            text-decoration: none;
-            background-color: black;
-            border-radius: 20%;
-        }
-        li{
-            color: #b96900;
-            text-decoration: none;
-        }
-        .flex-container {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokedex - Gouging Fire</title>
+<style>
+    body {
+        background: #a3221e; /* rojo fuego */
+        font-family: 'Gill Sans', Calibri, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
 
-        .links {
-            display: flex;
-        }
-    </style>
+    .pokedex {
+        width: 800px;
+        background: #c73a2f; /* rojo más claro */
+        margin: 30px auto;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        overflow: hidden;
+        border: 5px solid #701515; /* borde más oscuro */
+    }
+
+    .navbar {
+        background-color: #f6c743; /* amarillo cálido */
+        padding: 10px;
+        text-align: center;
+        border-bottom: 5px solid #701515;
+    }
+
+    .navbar h1 {
+        margin: 0;
+        color: #1a1a1a; /* negro carbón */
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: #f3e1c0; /* crema suave */
+        color: #1a1a1a;
+    }
+
+    .flex-container img {
+        width: 300px;
+        border: 3px solid #a3221e;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .flex-container p {
+        flex: 1;
+        padding: 15px;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        background: #701515;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .links a {
+        background: #1a1a1a;
+        color: #f6c743;
+        padding: 8px 14px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s ease;
+    }
+
+    .links a:hover {
+        background: #4d4d4d
+    }
+
+</style>
 </head>
 <body>
+
+<div class="pokedex">
     <nav class="navbar">
-        <h1 class="chun">Gouging Fire</h1>
+         <h1 id="nombrePokemon" class="azul">Nombre Pokemon</h1>
     </nav>
+
     <div class="flex-container">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1020.png" alt="">
+        <img id="imagenPokemon" src="">
         <p>Hay pocos informes de que esta criatura haya sido avistada. Un breve vídeo lo muestra arrasando y lanzando columnas de llamas.</p>
     </div>
 
     <div class="links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="uno.html">Uno</a></li>
-    <li><a href="dos.html">Dos</a></li>
+        <a href="index.html">Gouging Fire</a>
+        <a href="uno.html">Iron Bundle</a>
+        <a href="dos.html">Raikou</a>
     </div>
+</div>
+<script src="action.js"></script>
 </body>
 </html>
+

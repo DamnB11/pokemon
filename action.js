@@ -38,8 +38,8 @@ function updatePokemonLayout(pokemonData) {
 
 // Ejecutar la función cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
-    // Cargar bulbasaur por defecto
-    fetchPokemon('bulbasaur');
+    // Cargar Gouging-Fire por defecto
+    fetchPokemon('gouging-fire');
     
     // Agregar event listeners a los enlaces de navegación
     const navLinks = document.querySelectorAll('nav a[data-pokemon]');
